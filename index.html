@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/b309ff7634.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <header class="ancho">
+      <figure>
+        <img src="imagenes/pullrequest-logo.svg" alt="" />
+      </figure>
+    </header>
+    <div class="ancho">
+        <a href="#" id="menu">
+            <i class="fas fa-bars fa-1x"></i>
+        </a>
+    </div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Empresa</a>
+      <a href="#">Servicios</a>
+      <a href="#">Clientes</a>
+      <a href="#">Ubicación</a>
+      <a href="#">Contactanos</a>
+    </nav>
+    <div class="ancho" id="cuerpo">
+      <div class="text">
+        <h1>Creación de paginas web</h1>
+        <h2>Curso básico de HTML5 y CSS</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
+          asperiores adipisci consequuntur quae velit at optio quidem cupiditate
+          eius nobis fuga magnam quibusdam commodi laudantium? Voluptas ab
+          numquam voluptatibus aperiam!
+        </p>
+        <a href="#" class="btn_rojo">ver</a>
+      </div>
+      <div class="img">
+        <figure>
+          <img src="imagenes/foto_pullrequest.svg" alt="" />
+        </figure>
+      </div>
+    </div>
+    <footer class="ancho">
+      <p>@miguelcadenas</p>
+    </footer>
+
+    <script>
+        //SCRIPTPARA EL MENU DESPLEGABLE
+
+        $("#menu").click(function(){
+            $("nav").slideToggle();
+        });
+    </script>
+  </body>
+</html>
