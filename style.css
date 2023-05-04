@@ -147,7 +147,7 @@ footer p{
       align-items: center;
       margin-top: 10px;
     }
-    .text, .img {
+    .text, .img,.img figure{
       width: 100%;
     }
     #menu {
